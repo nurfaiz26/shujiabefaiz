@@ -217,7 +217,7 @@ class BookingTransactionResource extends Resource
                 TextColumn::make('name')
                     ->searchable(),
 
-                TextColumn::make('booking_tx_id')
+                TextColumn::make('booking_trx_id')
                     ->searchable(),
 
                 TextColumn::make('created_at'),
